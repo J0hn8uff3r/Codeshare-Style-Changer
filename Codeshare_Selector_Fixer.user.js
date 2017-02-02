@@ -8,4 +8,4 @@
 // @grant       none
 // ==/UserScript==
 
-$('div').css({"font-size": "18px", "color":"red", "background-color":"black"});
+$(".cm-s-monokai").css({"font-size": "18px", "color":"red", "background-color":"black"});
