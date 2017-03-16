@@ -1,5 +1,5 @@
 # Codeshare-Style-Changer
-Change the default style to another one less annoying, your partner can see code in a clearer way when it's selected using jQquery
+Change the default style to another one less annoying, your partner/s and you will see code in a clearer way if someone selects something
 
 Without script:
 ![alt tag](https://i.snag.gy/e3d5sE.jpg)
