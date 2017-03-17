@@ -8,7 +8,10 @@
 // @grant       none
 // ==/UserScript==
 
-$(".cm-s-monokai").css({"font-size": "18px", "color":"red", "background-color":"black"});
+//Using "on" event cause "onload" is deprecated from jQuery 3.0 version
+$(window).on('load', function () {
+      $(".cm-s-monokai").css({"font-size": "18px", "color":"red", "background-color":"black"});
+ });
 
 document.onkeydown = function (e) {
     e = e || window.event;//Get event
